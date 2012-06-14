@@ -1,0 +1,11 @@
+{
+  "sites":{
+    "cabin": {
+      "id": 1,
+      "max-length": 28,
+      "content": "<p>site description</p>"
+    },
+    "rv": {},
+    "tent": {}
+  }
+}
