@@ -1,0 +1,27 @@
+#canvas {}
+#paper {
+   position: absolute;
+   top: -250px;
+   left: 50px;
+   width:1056px;
+   height:1623px;
+}
+#map {
+}
+#info-column {
+  position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    margin-left: 900px;
+}
+.info {
+    display: none;
+    overflow: auto;
+}
+h2 {
+    text-align: left;
+}
+text, tspan {
+  pointer-events:none;
+}

@@ -3,9 +3,27 @@
     "cabin": {
       "id": 1,
       "max-length": 28,
+      "content": "<ul><li>Queen size bed in bedroom - Brand new Sealy Posturepedic added Jun 2011.</li><li>Queen hide-a-bed in living area</li><li>Carpeted loft area for sleeping bags or a queen size air mattress</li><li>Air conditioning, heat, two ceiling fans</li><li>Shower/tub, toilet, sink, vanity, hot water</li><li>Refrigerator, stove top, sink, small counter top, microwave, dishes, glassware, pots &amp; pans, utensils</li><li>Table with four chairs</li><li>Fire ring for camp fires with \"starter\" supply of firewood</li><li>Linens and plush towels will be provided (Brand new Jun 2011)</li><li>TV with DVD player</li></ul>",
+      "images": 
+      [
+        {"file": "cabin1.jpg", "alt": "Cabin outside view", "cover": true},
+        {"file": "cabin-kitchen.jpg", "alt": "Kitchen looking out towards front"}
+      ]
+    },
+    "rv": {
+      "id": 1,
+      "max-length": 28,
       "content": "<p>site description</p>"
     },
-    "rv": {},
+    "rv": {
+      "id": 30,
+      "max-length": 30,
+      "content": "<p>site description</p>",
+      "images": 
+      [
+        {"file": "site30", "alt": "Wooded site", "cover": true}
+      ]
+    },
     "tent": {}
   }
 }
