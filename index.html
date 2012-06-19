@@ -2,60 +2,20 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Map Overlays</title>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <title>Campground Map</title>
+        
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <script src="raphael-min.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="javascripts/raphael-min.js" type="text/javascript" charset="utf-8"></script>
         <script src="javascripts/script.js" type="text/javascript" charset="utf-8"></script>
     </head>
     <body>
         <div id="canvas">
+            <a href="#" id="hide" style="z-index: 700; position: relative;">Show/Hide Labels</a>
             <div id="paper"></div>
             <div id="info-column">
-              Move this data to json and use jQuery to retrieve and display it when a site is clicked
-              <div id="rv1" class="info">
-                  <h2>RV site 1</h2>
-                  <p>
-                      RV site 1 description
-                      Electric: 20 &amp; 30amps
-                      Water 
-                      Sewage
-                      Max length: up to 30' 
-                  </p>
-              </div>
-              <div id="rv2" class="info">
-                  <h2>RV site 2</h2>
-                  <p>
-                      RV site 2 description
-                      Electric: 20 &amp; 30amps
-                      Water 
-                      Sewage
-                      Max length: up to 30' 
-                  </p>
-              </div>
-              <div id="rv3" class="info">
-                  <h2>RV site 3</h2>
-                  <p>
-                      RV site 3 description
-                      Electric: 20 &amp; 30amps
-                      Water 
-                      Sewage
-                      Max length: up to 30' 
-                  </p>
-              </div>
-              <div id="cabin1" class="info">
-                  <h2>Cabin 1</h2>
-                  <p>
-                      Cabin info 
-                  </p>
-              </div>
-              <div id="cabin2" class="info">
-                  <h2>Cabin 2</h2>
-                  <p>
-                      Cabin info 
-                  </p>
-              </div>
               <div>
                 <h2>Campground Amenities</h2>
                 <ul>
@@ -66,6 +26,5 @@
               </div>
             </div><!-- #info-column -->
         </div><!--#canvas-->
-        <a href="#" id="hide">Show/Hide Labels</a>
     </body>
 </html>

@@ -1,0 +1,12 @@
+//http://json-generator.appspot.com/
+
+
+
+//rv sites
+{
+	"id": "$incr",
+	"type": 2,
+	"maxLength": "$randInt(27,35)",
+	"seasonal": "$bool",
+	"content": "<p>RV Site</p>"
+}
