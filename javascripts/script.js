@@ -9,7 +9,7 @@ $(document).ready(function() {
           }
           
           //when I hilite an item, grey everything else out and make the hilited element red
-  	      var  colors = {
+  	      var colors = {
   	        "rv": "#69923E",
   	        "seasonal": "#a8d485",
   	        "cabin":"#ED7B31",
@@ -47,6 +47,8 @@ $(document).ready(function() {
           var siteNumberStyle = {'fill': '#ffffff','font-size': '15px', 'font-weight': 'bold'};     
         
           var rsr = Raphael('paper', '1056', '1623');
+          var key = Raphael('map-key');
+          
           var sites = {};
           var tentsites = {};
           var bathhouses = {};
@@ -55,11 +57,11 @@ $(document).ready(function() {
           var siteNumbers = {};
 
           //key
-            var keycabin = rsr.rect(50, 290, 50, 50).attr({fill: '#ED7B31',id: 'key-cabin','stroke-width': '0','stroke-opacity': '0'}).data('id', 'key-cabin');
-            var keyrv = rsr.rect(50, 350, 50, 50).attr(rv).data('id', 'key-rv');
-            var keyseasonal = rsr.rect(50, 410, 50, 50).attr(seasonal).data('id', 'key-seasonal');
-            var keytent = rsr.rect(50, 470, 50, 50).attr(tent).data('id', 'key-tent');
-            var keybeach = rsr.rect(50, 530, 50, 50).attr({fill: colors['beach'],id: 'key-beach','stroke-width': '0','stroke-opacity': '0'}).data('id', 'key-beach');
+            var keycabin = key.rect(0, 0, 50, 50).attr({fill: '#ED7B31',id: 'key-cabin','stroke-width': '0','stroke-opacity': '0'}).data('id', 'key-cabin');
+            var keyrv = key.rect(0, 60, 50, 50).attr(rv).data('id', 'key-rv');
+            var keyseasonal = key.rect(0, 120, 50, 50).attr(seasonal).data('id', 'key-seasonal');
+            var keytent = key.rect(0, 180, 50, 50).attr(tent).data('id', 'key-tent');
+            var keybeach = key.rect(0, 240, 50, 50).attr({fill: colors['beach'],id: 'key-beach','stroke-width': '0','stroke-opacity': '0'}).data('id', 'key-beach');
           
             var pond = rsr.path("M531.281,899.271c17.268,4.879,58.799,16.62,61.797,17.529c13.239,4.015,47.422,12.7,65.756,29.034  c3.327,1.559,4.666,1.166,10.416-3.334l48.583-29.333c0,0,19.667-14.667,58.667,4.333c46.652,22.729,81.333,71.334,83.333,74.334  s8.102,9.14-4.331,46.666c-17.835,53.834-34.668,66.501-34.668,66.501s-11.667,4.166-60.334-7.834  c-41.704-10.283-92.667-46.667-105-81.667c-9.041-25.656,0.75-55.334-3-61.75c-1.5-9.584-18.787-20.07-55.333-31.916  c-14.64-4.745-42.667-13.334-67.333-20c-4.333-3.333-7.952-6.19-8.667-12l2.333-1C523.5,888.834,526.706,897.978,531.281,899.271z").attr({fill: '#00BBD7',id: 'pond','stroke-width': '0','stroke-opacity': '0'}).data('id', 'pond');
 
