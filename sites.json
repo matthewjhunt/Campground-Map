@@ -33,7 +33,7 @@
               "id": 2,
               "type": 2,
               "maxLength": 30,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
@@ -47,28 +47,28 @@
               "id": 5,
               "type": 2,
               "maxLength": 30,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 6,
               "type": 2,
               "maxLength": 35,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 7,
               "type": 2,
               "maxLength": 27,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 8,
               "type": 2,
               "maxLength": 32,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
@@ -82,7 +82,7 @@
               "id": 10,
               "type": 2,
               "maxLength": 27,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
@@ -96,28 +96,28 @@
               "id": 12,
               "type": 2,
               "maxLength": 30,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 13,
               "type": 2,
               "maxLength": 27,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 14,
               "type": 2,
               "maxLength": 30,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 15,
               "type": 2,
               "maxLength": 32,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
@@ -131,7 +131,7 @@
               "id": 17,
               "type": 2,
               "maxLength": 31,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
@@ -152,7 +152,7 @@
               "id": 21,
               "type": 2,
               "maxLength": 32,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
@@ -166,21 +166,21 @@
               "id": 23,
               "type": 2,
               "maxLength": 32,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 24,
               "type": 2,
               "maxLength": 34,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 25,
               "type": 2,
               "maxLength": 34,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
@@ -201,42 +201,42 @@
               "id": 28,
               "type": 2,
               "maxLength": 28,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 29,
               "type": 2,
               "maxLength": 33,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 30,
               "type": 2,
               "maxLength": 30,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 31,
               "type": 2,
               "maxLength": 27,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 32,
               "type": 2,
               "maxLength": 29,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {
               "id": 33,
               "type": 2,
               "maxLength": 34,
-              "seasonal": false,
+              "seasonal": true,
               "content": "<p>RV Site</p>"
               },
               {

@@ -10,8 +10,8 @@ $(document).ready(function() {
           
           //when I hilite an item, grey everything else out and make the hilited element red
   	      var colors = {
-  	        "rv": "#69923E",
-  	        "seasonal": "#a8d485",
+  	        "rv": "#a8d485",
+  	        "seasonal": "#69923E", //69923E
   	        "cabin":"#ED7B31",
   	        "tent":"#A27A95",
   	        "beach": "#F9DB94",
@@ -214,7 +214,7 @@ $(document).ready(function() {
           
           for (var site in sites) {
                 addNumber(sites[site]);
-                sites[site].color = Raphael.color("#000");
+                sites[site].color = Raphael.color("#333");
                 //get site type then use it to set the color to return to after rollover
                 (function (st, site) {
                     $(st[0]).attr("class","rvsites sites");

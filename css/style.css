@@ -1,4 +1,8 @@
-#canvas {}
+body {
+}
+#canvas {
+  background: #fffcf5;
+}
 #paper {
    position: relative;
    top: -250px;
