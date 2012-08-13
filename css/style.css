@@ -5,8 +5,10 @@ body {
 }
 #paper {
    position: relative;
+   /*
    top: -250px;
    left: 50px;
+   */
    width:1056px;
    height:1623px;
 }
